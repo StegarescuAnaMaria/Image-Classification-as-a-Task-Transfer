@@ -10,3 +10,9 @@ https://github.com/ericsujw/InstColorization
 
 The credited above project has 3 models: the instance model, which uses [Detectron2](https://github.com/facebookresearch/detectron2) for image recognition for better colorization (Detectron2 will not be used for image classification), the full model, which colorizes the full image, and the fusion model, which colorizes the boxes of recognized objects and the full image separately, then "fuses" them. 
 
+Our experiment will be based on the instance and full models.
+
+We used a fruits and vegetables [dataset](https://www.kaggle.com/kritikseth/fruit-and-vegetable-image-recognition), and kept 10 different classes for training and testing. 
+
+
+
