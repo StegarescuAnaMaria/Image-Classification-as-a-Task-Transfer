@@ -18,5 +18,7 @@ After training the new models on image classification, we obtained these trainin
 
 ![](im2.png)
 
-The accuracy is very uneven (randomly anywhere between 40 and 80 towards the end for the instance model), we suppose because the models are using color for classification, and we have some classes with the same color (for example banana, pineapple, and lemon). The pictures are picked randomly in batches of 25. The accuracy could be lower when more pictures of said classes are picked.
+The accuracy is very uneven (randomly anywhere between 40% and 80% towards the end for the instance model), we suppose because the models are using color for classification, and we have some classes with the same color (for example banana, pineapple, and lemon). The pictures are picked randomly in batches of 25. The accuracy could be lower when more pictures of said classes are picked.
 
+The best test accuracy is 60%:
+![](im3.png)
